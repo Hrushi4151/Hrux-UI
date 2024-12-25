@@ -12,7 +12,7 @@ const AboutUs = () => {
         {/* Intro Section */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-lg leading-7">
-            Welcome to <span className="font-bold text-gray-900">AI WebDesigner</span>, 
+            Welcome to <span className="font-bold text-gray-900">Hrux UI</span>, 
             where creativity meets technology! Our mission is to empower businesses and 
             individuals with stunning, AI-powered web designs that are not only beautiful 
             but also functional and optimized for success.
