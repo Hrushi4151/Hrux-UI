@@ -4,7 +4,7 @@ import ShareButton from './components/ShareButton'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Hrushi's UI",
+  title: "Hrux UI",
   description: 'Generate web designs using AI',
 }
 
