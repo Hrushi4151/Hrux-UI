@@ -6,25 +6,25 @@ const Portfolio = () => {
     {
       title: "E-commerce Website",
       description: "A fully responsive e-commerce website built with Tailwind CSS, offering seamless shopping experience.",
-      image: "/images/project1.jpg",
+      image: "https://cdn4.vectorstock.com/i/1000x1000/23/78/beautiful-landing-page-website-template-design-vector-21452378.jpg",
       link: "/portfolio",
     },
     {
       title: "Personal Blog",
       description: "A clean and modern personal blog with Tailwind CSS for responsive design and fast loading times.",
-      image: "/images/project2.jpg",
+      image: "https://colorlib.com/wp/wp-content/uploads/sites/2/thestartup-free-template-353x278.jpg",
       link: "/portfolio",
     },
     {
       title: "Business Landing Page",
       description: "A professional business landing page, designed to highlight your services and convert visitors into clients.",
-      image: "/images/project3.jpg",
+      image: "https://i.ytimg.com/vi/KWuZdD1aDPo/maxresdefault.jpg",
       link: "/portfolio",
     },
     {
       title: "Photography Portfolio",
       description: "A sleek photography portfolio that showcases images in a clean, minimalistic style with smooth animations.",
-      image: "/images/project4.jpg",
+      image: "https://i.ytimg.com/vi/yzjhpnsuXXU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBxGlz7o_LcpCu38NQk-t95cTn-Pw",
       link: "/portfolio",
     },
   ];
