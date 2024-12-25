@@ -55,30 +55,12 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center">
               <img
-                src="/images/team1.jpg"
+                src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg"
                 alt="Team Member 1"
                 className="rounded-full w-32 h-32 mx-auto mb-4"
               />
-              <h4 className="text-xl font-semibold">John Doe</h4>
+              <h4 className="text-xl font-semibold">Hrushikesh More</h4>
               <p className="text-sm text-gray-600">CEO & Founder</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/images/team2.jpg"
-                alt="Team Member 2"
-                className="rounded-full w-32 h-32 mx-auto mb-4"
-              />
-              <h4 className="text-xl font-semibold">Jane Smith</h4>
-              <p className="text-sm text-gray-600">Lead Designer</p>
-            </div>
-            <div className="text-center">
-              <img
-                src="/images/team3.jpg"
-                alt="Team Member 3"
-                className="rounded-full w-32 h-32 mx-auto mb-4"
-              />
-              <h4 className="text-xl font-semibold">Sam Brown</h4>
-              <p className="text-sm text-gray-600">AI Engineer</p>
             </div>
           </div>
         </div>
