@@ -47,7 +47,7 @@ export async function POST(req,res){
                   mode: 'no-cors',
                   method: "POST",
                   headers: {
-                    Accept: "*/*",
+                    "Accept": "*/*",
                     "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
                     "ACCESS-CONTROL-ALLOW-ORIGIN": "*" ,
                     "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
@@ -57,18 +57,18 @@ export async function POST(req,res){
           body:JSON.stringify(bodydata) ,
         });
         const textResponse = await myres.text();
-const lines = textResponse.split('\n');
+const lines =await textResponse.split('\n');
 
 // Step 2: Filter lines starting with `0:`
-const filteredLines = lines.filter(line => line.startsWith('0:'));
+const filteredLines =await lines.filter(line => line.startsWith('0:'));
 
 // Step 3: Extract the text after `0:` and clean up the quotes
-const textArray = filteredLines.map(line => 
+const textArray =await filteredLines.map(line => 
   line.replace(/^0:"/, "").replace(/"$/, "").replace('\\"','"').replace("\\n","\n") // Remove `0:` prefix and ending quote
 );
 
 
-const cleanedHTML = textArray.join("");
+const cleanedHTML =await textArray.join("");
           
       return NextResponse.json({"status":200,data:cleanedHTML});
 
