@@ -52,7 +52,7 @@ const AboutUs = () => {
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
             Meet the Team
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 ">
             <div className="text-center">
               <img
                 src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg"
