@@ -44,15 +44,14 @@ export async function POST(req,res){
   };
         const myres = await fetch("https://tailwindgenie.com/api/chat", {
           credentials: 'include',
-                  mode: 'no-cors',
                   method: "POST",
                   headers: {
-                    "Accept": "*/*",
-                    "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-                    "ACCESS-CONTROL-ALLOW-ORIGIN": "*" ,
-                    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-                    "Origin":"https://tailwindgenie.com",
-                    "Referer":"https://tailwindgenie.com/?ref=taaft&utm_source=taaft&utm_medium=referral"
+                   Accept: "*/*",
+    "Content-Type": "application/json",
+    "ACCESS-CONTROL-ALLOW-ORIGIN": "*",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+    "Origin": "https://tailwindgenie.com",
+    "Referer": "https://tailwindgenie.com/?ref=taaft&utm_source=taaft&utm_medium=referral"
           },
           body:JSON.stringify(bodydata) ,
         });
