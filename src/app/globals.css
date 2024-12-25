@@ -15,7 +15,7 @@
 }
 
 body {
-  color: var(--foreground);
+  color: white;
   /* background: url('/bgai.jpg'); */
   font-family: Copperplate, Papyrus, fantasy;
 }
